@@ -170,12 +170,6 @@ const Skills = () => {
                     </motion.div>
                 </div>
             </div>
-            <motion.div
-                animate={isInView ? arrowVariants : ""}
-                className='Arrow_skills' ref={ref}>
-                <span>scroll</span>
-                <HiOutlineArrowNarrowDown/>
-            </motion.div>
         </div>
     );
 };

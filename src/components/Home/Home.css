@@ -87,7 +87,7 @@
     top: 0;
 }
 .Arrow{
-    color: var(--third-color);
+    color: var(--p-primary-color);
     position: absolute;
     bottom: 30px;
     right: 10px;

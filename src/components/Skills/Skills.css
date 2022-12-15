@@ -21,22 +21,6 @@
     top: 150px;
     right: 600px;
 }
-.Arrow_skills{
-    color: var(--fourth-color);
-    position: absolute;
-    bottom: 30px;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    font-size: 2rem;
-}
-.Arrow_skills span{
-    transform: rotate(90deg);
-    font-size: 1rem;
-    position: absolute;
-    bottom: 50px;
-    right: -7px;
-}
 .Skills_title h2{
     font-size: 2rem;
     margin-left: 40px;
@@ -107,16 +91,6 @@
 }
 
 @media(min-width:720px){
-    .Arrow_skills{
-        font-size: 2rem;
-    }
-    .Arrow_skills span{
-        transform: rotate(90deg);
-        font-size: 1.5rem;
-        position: absolute;
-        bottom: 55px;
-        right: -17px;
-    }
     .Skills{
         width: calc(100% - 140px);
         margin-left: 140px;

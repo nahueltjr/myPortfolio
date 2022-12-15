@@ -52,7 +52,6 @@
     object-fit: cover;
     transition: all .1s;
     border-radius: 5px;
-    filter: sepia(100%) hue-rotate(110deg) saturate(180%) brightness(80%);
     position: absolute;
     top: -25px;
     left: -25px;
@@ -116,6 +115,9 @@
     }
     .About_text p{
         padding: 0 1rem 0 0;
+    }
+    .About_avatar img{
+        filter: sepia(100%) hue-rotate(110deg) saturate(180%) brightness(80%);
     }
     .About_avatar img:hover{
         filter: none;
