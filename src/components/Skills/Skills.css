@@ -1,0 +1,199 @@
+.Skills{
+    width: calc(100% - 20px);
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white-color);
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.Skills_bg{
+    width: 200px;
+    height: 200px;
+    font-size: 10rem;
+    font-weight: 600;
+    position: absolute;
+    color: var(--bg-text-color);
+    z-index: -1;
+    top: 150px;
+    right: 600px;
+}
+.Arrow_skills{
+    color: var(--fourth-color);
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.Arrow_skills span{
+    transform: rotate(90deg);
+    font-size: 1rem;
+    position: absolute;
+    bottom: 50px;
+    right: -7px;
+}
+.Skills_title h2{
+    font-size: 2rem;
+    margin-left: 40px;
+}
+.Skills_title p{
+    font-weight: 400;
+}
+.Skills_title .Tag{
+    margin-left: 30px;
+}
+.Skills_title p{
+    margin-left: 40px;
+}
+.Skills_title h2 span{
+    font-weight: 700;
+    display: inline-block;
+    cursor: context-menu;
+    color: var(--primary-color);
+}
+.Skills_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.Skills_grid1,.Skills_grid2,.Skills_grid5{
+    display: none;
+}
+.Skills_grid3,.Skills_grid4{
+    display: grid;
+    gap: 1rem;
+}
+.Icon_container{
+    margin: 0 auto;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    font-size: 3.5rem;
+    display: grid;
+    place-content: center;
+    box-shadow: rgb(15, 15, 15) 3px 3px 6px 0px inset, rgba(22, 22, 22, 0.5) -3px -3px 6px 1px inset;
+}
+.Icon_container.js,.Icon_container.java{
+    width: 140px;
+    height: 60px;
+}
+.Icon_container.sass{
+    grid-row-start: 2;
+}
+.Icon_container.react{
+    width: 250px;
+    height: 80px;
+}
+
+@media(min-width:540px){
+    .Skills_title h2{
+        font-size: 3rem;
+    }
+    .Skills_text p{
+        padding: 0 1rem 0 0;
+    }
+    .Skills_avatar img:hover{
+        filter: none;
+        top: -3px;
+        left: -3px;
+    }
+}
+
+@media(min-width:720px){
+    .Arrow_skills{
+        font-size: 2rem;
+    }
+    .Arrow_skills span{
+        transform: rotate(90deg);
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 55px;
+        right: -17px;
+    }
+    .Skills{
+        width: calc(100% - 140px);
+        margin-left: 140px;
+    }
+    .Skills_title h2{
+        font-size: 4rem;
+    }
+    .Skills_title p{
+        font-size: 1.3rem;
+    }
+    .Icon_container{
+        width: 230px;
+        height: 90px;
+        font-size: 4.2rem;
+    }
+    .Icon_container.js,.Icon_container.java{
+        width: 160px;
+        height: 80px;
+    }
+    .Icon_container.react{
+        width: 290px;
+        height: 100px;
+    }
+    .Icon_container img{
+        width: 60px;
+    }
+}
+
+@media(min-width:1200px){
+    .Skills{
+        margin-bottom: 6rem;
+    }
+    .Skills_container{
+        margin-top: 2rem;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: auto auto auto auto auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .Skills_grid1,.Skills_grid2,.Skills_grid5,.Skills_grid3,.Skills_grid4{
+        gap: 1rem;
+        display: grid;
+        width: fit-content;
+    }
+    .Icon_container.sass{
+        grid-row-start: 3;
+    }
+    .Icon_container{
+        width:180px;
+        height: 100px;
+        font-size: 4.5rem;
+    }
+    .Icon_container.js,.Icon_container.java{
+        width: 180px;
+        height: 100px;
+    }
+    .Icon_container.react{
+        width: 180px;
+        height: 100px;
+    }
+    .Icon_container img{
+        width: 70px;
+    }
+}
+
+@media(min-width:1400px){
+    .Icon_container{
+        width:200px;
+        height: 110px;
+    }
+    .Icon_container.js,.Icon_container.java{
+        width: 200px;
+        height: 110px;
+    }
+    .Icon_container.react{
+        width: 200px;
+        height: 110px;
+    }
+}

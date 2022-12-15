@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+:root {
+  --background-color:#1a1a1a;
+  --black-color:#000;
+  --white-color:#fff;
+  --p-primary-color:#a3a3a3;
+  --p-primary-dark-color:#525252;
+  --primary-color: #08fdd8;
+  --primary-light-color: #80ffec;
+  --secondary-color: #ec0047;
+  --third-color:#3f2aff;
+  --fourth-color:#ddfd69;
+  --bg-text-color:#222222;
+  --tag-color:#515152;
+  --input-bg-color:#353535;
+  --navbar-color:#111111;
+}
+
+body{
+  background-color: var(--background-color);
+  /* background: radial-gradient(ellipse, #1b2735 0%,#090a0f 100%); */
+  /* background: radial-gradient(ellipse, #1d1d1d 0%,#0a0a0a 100%); */
+}
