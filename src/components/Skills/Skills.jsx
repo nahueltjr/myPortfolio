@@ -3,7 +3,7 @@ import "./Skills.css"
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 import javaIcon from "../../../public/Skills-icons/java.svg"
-import pythonIcon from "../../../public/Skills-icons/py.svg"
+import node from "../../../public/Skills-icons/node.svg"
 import react from "../../../public/Skills-icons/react.svg"
 import html from "../../../public/Skills-icons/html.svg"
 import css from "../../../public/Skills-icons/css.svg"
@@ -166,7 +166,7 @@ const Skills = () => {
                         initial={initial}
                         transition={{ delay: 1.6, duration: .6 }}
                         animate={animation}
-                        className='Icon_container py'><img src={pythonIcon} alt=""/>
+                        className='Icon_container node'><img src={node} alt=""/>
                     </motion.div>
                 </div>
             </div>

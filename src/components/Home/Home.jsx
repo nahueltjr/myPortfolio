@@ -6,7 +6,7 @@ import { HiOutlineArrowNarrowDown } from 'react-icons/hi';
 const Home = () => {
   const phrase1 = "Hi!".split("")
   const phrase2 = "I'm Nahuel".split("")
-  const phrase3 = "Web Developer.".split("")
+  const phrase3 = "Fullstack Developer.".split("")
   
   const spanVariants = {
     visible:{scaleY:1},
